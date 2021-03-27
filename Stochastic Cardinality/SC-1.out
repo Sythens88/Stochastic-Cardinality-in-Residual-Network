@@ -1,0 +1,1256 @@
+Sender: LSF System <lsfadmin@gpu08>
+Subject: Job 41525: <SC> in cluster <cluster_lsf> Done
+
+Job <SC> was submitted from host <mgtgpu02> by user <TJXY02> in cluster <cluster_lsf> at Wed Mar 24 22:26:05 2021
+Job was executed on host(s) <gpu08>, in queue <gpu>, as user <TJXY02> in cluster <cluster_lsf> at Thu Mar 25 00:30:28 2021
+</nfsshare/home/TJXY02> was used as the home directory.
+</nfsshare/home/TJXY02> was used as the working directory.
+Started at Thu Mar 25 00:30:28 2021
+Terminated at Thu Mar 25 09:46:12 2021
+Results reported at Thu Mar 25 09:46:12 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -J SC
+#BSUB -q gpu
+#BSUB -gpu "num=1"
+#BSUB -n 1
+#BSUB -o SC.out
+#BSUB -e SC.err
+
+source activate pytorch
+python SC.py
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   33396.74 sec.
+    Max Memory :                                 2525 MB
+    Average Memory :                             2407.27 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                8
+    Run time :                                   33349 sec.
+    Turnaround time :                            40807 sec.
+
+The output (if any) follows:
+
+Starting epoch 1 / 300
+Got 488 / 5000 correct (9.76)
+Starting epoch 2 / 300
+Got 489 / 5000 correct (9.78)
+Starting epoch 3 / 300
+Got 541 / 5000 correct (10.82)
+Starting epoch 4 / 300
+Got 664 / 5000 correct (13.28)
+Starting epoch 5 / 300
+Got 689 / 5000 correct (13.78)
+Starting epoch 6 / 300
+Got 1054 / 5000 correct (21.08)
+Starting epoch 7 / 300
+Got 1064 / 5000 correct (21.28)
+Starting epoch 8 / 300
+Got 1159 / 5000 correct (23.18)
+Starting epoch 9 / 300
+Got 1101 / 5000 correct (22.02)
+Starting epoch 10 / 300
+Got 1485 / 5000 correct (29.70)
+Starting epoch 11 / 300
+Got 1678 / 5000 correct (33.56)
+Starting epoch 12 / 300
+Got 1950 / 5000 correct (39.00)
+Starting epoch 13 / 300
+Got 2006 / 5000 correct (40.12)
+Starting epoch 14 / 300
+Got 2114 / 5000 correct (42.28)
+Starting epoch 15 / 300
+Got 2249 / 5000 correct (44.98)
+Starting epoch 16 / 300
+Got 2505 / 5000 correct (50.10)
+Starting epoch 17 / 300
+Got 2549 / 5000 correct (50.98)
+Starting epoch 18 / 300
+Got 2754 / 5000 correct (55.08)
+Starting epoch 19 / 300
+Got 2866 / 5000 correct (57.32)
+Starting epoch 20 / 300
+Got 2872 / 5000 correct (57.44)
+Starting epoch 21 / 300
+Got 3118 / 5000 correct (62.36)
+Starting epoch 22 / 300
+Got 3165 / 5000 correct (63.30)
+Starting epoch 23 / 300
+Got 3273 / 5000 correct (65.46)
+Starting epoch 24 / 300
+Got 3416 / 5000 correct (68.32)
+Starting epoch 25 / 300
+Got 3467 / 5000 correct (69.34)
+Starting epoch 26 / 300
+Got 3605 / 5000 correct (72.10)
+Starting epoch 27 / 300
+Got 3629 / 5000 correct (72.58)
+Starting epoch 28 / 300
+Got 3690 / 5000 correct (73.80)
+Starting epoch 29 / 300
+Got 3764 / 5000 correct (75.28)
+Starting epoch 30 / 300
+Got 3870 / 5000 correct (77.40)
+Starting epoch 31 / 300
+Got 3876 / 5000 correct (77.52)
+Starting epoch 32 / 300
+Got 3952 / 5000 correct (79.04)
+Starting epoch 33 / 300
+Got 3976 / 5000 correct (79.52)
+Starting epoch 34 / 300
+Got 4037 / 5000 correct (80.74)
+Starting epoch 35 / 300
+Got 4003 / 5000 correct (80.06)
+Starting epoch 36 / 300
+Got 4019 / 5000 correct (80.38)
+Starting epoch 37 / 300
+Got 4044 / 5000 correct (80.88)
+Starting epoch 38 / 300
+Got 4007 / 5000 correct (80.14)
+Starting epoch 39 / 300
+Got 4073 / 5000 correct (81.46)
+Starting epoch 40 / 300
+Got 4082 / 5000 correct (81.64)
+Starting epoch 41 / 300
+Got 4080 / 5000 correct (81.60)
+Starting epoch 42 / 300
+Got 4097 / 5000 correct (81.94)
+Starting epoch 43 / 300
+Got 4107 / 5000 correct (82.14)
+Starting epoch 44 / 300
+Got 4180 / 5000 correct (83.60)
+Starting epoch 45 / 300
+Got 4159 / 5000 correct (83.18)
+Starting epoch 46 / 300
+Got 4209 / 5000 correct (84.18)
+Starting epoch 47 / 300
+Got 4225 / 5000 correct (84.50)
+Starting epoch 48 / 300
+Got 4224 / 5000 correct (84.48)
+Starting epoch 49 / 300
+Got 4246 / 5000 correct (84.92)
+Starting epoch 50 / 300
+Got 4258 / 5000 correct (85.16)
+Starting epoch 51 / 300
+Got 4235 / 5000 correct (84.70)
+Starting epoch 52 / 300
+Got 4286 / 5000 correct (85.72)
+Starting epoch 53 / 300
+Got 4297 / 5000 correct (85.94)
+Starting epoch 54 / 300
+Got 4264 / 5000 correct (85.28)
+Starting epoch 55 / 300
+Got 4249 / 5000 correct (84.98)
+Starting epoch 56 / 300
+Got 4325 / 5000 correct (86.50)
+Starting epoch 57 / 300
+Got 4305 / 5000 correct (86.10)
+Starting epoch 58 / 300
+Got 4293 / 5000 correct (85.86)
+Starting epoch 59 / 300
+Got 4322 / 5000 correct (86.44)
+Starting epoch 60 / 300
+Got 4308 / 5000 correct (86.16)
+Starting epoch 61 / 300
+Got 4266 / 5000 correct (85.32)
+Starting epoch 62 / 300
+Got 4277 / 5000 correct (85.54)
+Starting epoch 63 / 300
+Got 4315 / 5000 correct (86.30)
+Starting epoch 64 / 300
+Got 4280 / 5000 correct (85.60)
+Starting epoch 65 / 300
+Got 4326 / 5000 correct (86.52)
+Starting epoch 66 / 300
+Got 4309 / 5000 correct (86.18)
+Starting epoch 67 / 300
+Got 4338 / 5000 correct (86.76)
+Starting epoch 68 / 300
+Got 4330 / 5000 correct (86.60)
+Starting epoch 69 / 300
+Got 4377 / 5000 correct (87.54)
+Starting epoch 70 / 300
+Got 4340 / 5000 correct (86.80)
+Starting epoch 71 / 300
+Got 4350 / 5000 correct (87.00)
+Starting epoch 72 / 300
+Got 4318 / 5000 correct (86.36)
+Starting epoch 73 / 300
+Got 4316 / 5000 correct (86.32)
+Starting epoch 74 / 300
+Got 4242 / 5000 correct (84.84)
+Starting epoch 75 / 300
+Got 4334 / 5000 correct (86.68)
+Starting epoch 76 / 300
+Got 4303 / 5000 correct (86.06)
+Starting epoch 77 / 300
+Got 4341 / 5000 correct (86.82)
+Starting epoch 78 / 300
+Got 4343 / 5000 correct (86.86)
+Starting epoch 79 / 300
+Got 4357 / 5000 correct (87.14)
+Starting epoch 80 / 300
+Got 4391 / 5000 correct (87.82)
+Starting epoch 81 / 300
+Got 4402 / 5000 correct (88.04)
+Starting epoch 82 / 300
+Got 4345 / 5000 correct (86.90)
+Starting epoch 83 / 300
+Got 4385 / 5000 correct (87.70)
+Starting epoch 84 / 300
+Got 4390 / 5000 correct (87.80)
+Starting epoch 85 / 300
+Got 4369 / 5000 correct (87.38)
+Starting epoch 86 / 300
+Got 4375 / 5000 correct (87.50)
+Starting epoch 87 / 300
+Got 4392 / 5000 correct (87.84)
+Starting epoch 88 / 300
+Got 4372 / 5000 correct (87.44)
+Starting epoch 89 / 300
+Got 4395 / 5000 correct (87.90)
+Starting epoch 90 / 300
+Got 4413 / 5000 correct (88.26)
+Starting epoch 91 / 300
+Got 4456 / 5000 correct (89.12)
+Starting epoch 92 / 300
+Got 4417 / 5000 correct (88.34)
+Starting epoch 93 / 300
+Got 4419 / 5000 correct (88.38)
+Starting epoch 94 / 300
+Got 4411 / 5000 correct (88.22)
+Starting epoch 95 / 300
+Got 4407 / 5000 correct (88.14)
+Starting epoch 96 / 300
+Got 4375 / 5000 correct (87.50)
+Starting epoch 97 / 300
+Got 4382 / 5000 correct (87.64)
+Starting epoch 98 / 300
+Got 4470 / 5000 correct (89.40)
+Starting epoch 99 / 300
+Got 4449 / 5000 correct (88.98)
+Starting epoch 100 / 300
+Got 4403 / 5000 correct (88.06)
+Starting epoch 101 / 300
+Got 4398 / 5000 correct (87.96)
+Starting epoch 102 / 300
+Got 4359 / 5000 correct (87.18)
+Starting epoch 103 / 300
+Got 4388 / 5000 correct (87.76)
+Starting epoch 104 / 300
+Got 4393 / 5000 correct (87.86)
+Starting epoch 105 / 300
+Got 4444 / 5000 correct (88.88)
+Starting epoch 106 / 300
+Got 4441 / 5000 correct (88.82)
+Starting epoch 107 / 300
+Got 4433 / 5000 correct (88.66)
+Starting epoch 108 / 300
+Got 4431 / 5000 correct (88.62)
+Starting epoch 109 / 300
+Got 4434 / 5000 correct (88.68)
+Starting epoch 110 / 300
+Got 4435 / 5000 correct (88.70)
+Starting epoch 111 / 300
+Got 4431 / 5000 correct (88.62)
+Starting epoch 112 / 300
+Got 4431 / 5000 correct (88.62)
+Starting epoch 113 / 300
+Got 4422 / 5000 correct (88.44)
+Starting epoch 114 / 300
+Got 4471 / 5000 correct (89.42)
+Starting epoch 115 / 300
+Got 4424 / 5000 correct (88.48)
+Starting epoch 116 / 300
+Got 4415 / 5000 correct (88.30)
+Starting epoch 117 / 300
+Got 4409 / 5000 correct (88.18)
+Starting epoch 118 / 300
+Got 4417 / 5000 correct (88.34)
+Starting epoch 119 / 300
+Got 4423 / 5000 correct (88.46)
+Starting epoch 120 / 300
+Got 4478 / 5000 correct (89.56)
+Starting epoch 121 / 300
+Got 4402 / 5000 correct (88.04)
+Starting epoch 122 / 300
+Got 4405 / 5000 correct (88.10)
+Starting epoch 123 / 300
+Got 4418 / 5000 correct (88.36)
+Starting epoch 124 / 300
+Got 4463 / 5000 correct (89.26)
+Starting epoch 125 / 300
+Got 4429 / 5000 correct (88.58)
+Starting epoch 126 / 300
+Got 4423 / 5000 correct (88.46)
+Starting epoch 127 / 300
+Got 4443 / 5000 correct (88.86)
+Starting epoch 128 / 300
+Got 4441 / 5000 correct (88.82)
+Starting epoch 129 / 300
+Got 4446 / 5000 correct (88.92)
+Starting epoch 130 / 300
+Got 4446 / 5000 correct (88.92)
+Starting epoch 131 / 300
+Got 4456 / 5000 correct (89.12)
+Starting epoch 132 / 300
+Got 4453 / 5000 correct (89.06)
+Starting epoch 133 / 300
+Got 4434 / 5000 correct (88.68)
+Starting epoch 134 / 300
+Got 4469 / 5000 correct (89.38)
+Starting epoch 135 / 300
+Got 4433 / 5000 correct (88.66)
+Starting epoch 136 / 300
+Got 4458 / 5000 correct (89.16)
+Starting epoch 137 / 300
+Got 4482 / 5000 correct (89.64)
+Starting epoch 138 / 300
+Got 4432 / 5000 correct (88.64)
+Starting epoch 139 / 300
+Got 4457 / 5000 correct (89.14)
+Starting epoch 140 / 300
+Got 4457 / 5000 correct (89.14)
+Starting epoch 141 / 300
+Got 4446 / 5000 correct (88.92)
+Starting epoch 142 / 300
+Got 4440 / 5000 correct (88.80)
+Starting epoch 143 / 300
+Got 4453 / 5000 correct (89.06)
+Starting epoch 144 / 300
+Got 4424 / 5000 correct (88.48)
+Starting epoch 145 / 300
+Got 4508 / 5000 correct (90.16)
+Starting epoch 146 / 300
+Got 4411 / 5000 correct (88.22)
+Starting epoch 147 / 300
+Got 4473 / 5000 correct (89.46)
+Starting epoch 148 / 300
+Got 4482 / 5000 correct (89.64)
+Starting epoch 149 / 300
+Got 4425 / 5000 correct (88.50)
+Starting epoch 150 / 300
+Got 4462 / 5000 correct (89.24)
+Starting epoch 151 / 300
+Got 4549 / 5000 correct (90.98)
+Starting epoch 152 / 300
+Got 4570 / 5000 correct (91.40)
+Starting epoch 153 / 300
+Got 4572 / 5000 correct (91.44)
+Starting epoch 154 / 300
+Got 4585 / 5000 correct (91.70)
+Starting epoch 155 / 300
+Got 4585 / 5000 correct (91.70)
+Starting epoch 156 / 300
+Got 4582 / 5000 correct (91.64)
+Starting epoch 157 / 300
+Got 4588 / 5000 correct (91.76)
+Starting epoch 158 / 300
+Got 4597 / 5000 correct (91.94)
+Starting epoch 159 / 300
+Got 4594 / 5000 correct (91.88)
+Starting epoch 160 / 300
+Got 4594 / 5000 correct (91.88)
+Starting epoch 161 / 300
+Got 4596 / 5000 correct (91.92)
+Starting epoch 162 / 300
+Got 4592 / 5000 correct (91.84)
+Starting epoch 163 / 300
+Got 4596 / 5000 correct (91.92)
+Starting epoch 164 / 300
+Got 4596 / 5000 correct (91.92)
+Starting epoch 165 / 300
+Got 4597 / 5000 correct (91.94)
+Starting epoch 166 / 300
+Got 4609 / 5000 correct (92.18)
+Starting epoch 167 / 300
+Got 4613 / 5000 correct (92.26)
+Starting epoch 168 / 300
+Got 4603 / 5000 correct (92.06)
+Starting epoch 169 / 300
+Got 4594 / 5000 correct (91.88)
+Starting epoch 170 / 300
+Got 4597 / 5000 correct (91.94)
+Starting epoch 171 / 300
+Got 4590 / 5000 correct (91.80)
+Starting epoch 172 / 300
+Got 4603 / 5000 correct (92.06)
+Starting epoch 173 / 300
+Got 4594 / 5000 correct (91.88)
+Starting epoch 174 / 300
+Got 4609 / 5000 correct (92.18)
+Starting epoch 175 / 300
+Got 4589 / 5000 correct (91.78)
+Starting epoch 176 / 300
+Got 4601 / 5000 correct (92.02)
+Starting epoch 177 / 300
+Got 4591 / 5000 correct (91.82)
+Starting epoch 178 / 300
+Got 4599 / 5000 correct (91.98)
+Starting epoch 179 / 300
+Got 4603 / 5000 correct (92.06)
+Starting epoch 180 / 300
+Got 4579 / 5000 correct (91.58)
+Starting epoch 181 / 300
+Got 4598 / 5000 correct (91.96)
+Starting epoch 182 / 300
+Got 4597 / 5000 correct (91.94)
+Starting epoch 183 / 300
+Got 4593 / 5000 correct (91.86)
+Starting epoch 184 / 300
+Got 4584 / 5000 correct (91.68)
+Starting epoch 185 / 300
+Got 4588 / 5000 correct (91.76)
+Starting epoch 186 / 300
+Got 4591 / 5000 correct (91.82)
+Starting epoch 187 / 300
+Got 4589 / 5000 correct (91.78)
+Starting epoch 188 / 300
+Got 4593 / 5000 correct (91.86)
+Starting epoch 189 / 300
+Got 4593 / 5000 correct (91.86)
+Starting epoch 190 / 300
+Got 4592 / 5000 correct (91.84)
+Starting epoch 191 / 300
+Got 4588 / 5000 correct (91.76)
+Starting epoch 192 / 300
+Got 4589 / 5000 correct (91.78)
+Starting epoch 193 / 300
+Got 4576 / 5000 correct (91.52)
+Starting epoch 194 / 300
+Got 4580 / 5000 correct (91.60)
+Starting epoch 195 / 300
+Got 4577 / 5000 correct (91.54)
+Starting epoch 196 / 300
+Got 4587 / 5000 correct (91.74)
+Starting epoch 197 / 300
+Got 4594 / 5000 correct (91.88)
+Starting epoch 198 / 300
+Got 4582 / 5000 correct (91.64)
+Starting epoch 199 / 300
+Got 4579 / 5000 correct (91.58)
+Starting epoch 200 / 300
+Got 4586 / 5000 correct (91.72)
+Starting epoch 201 / 300
+Got 4603 / 5000 correct (92.06)
+Starting epoch 202 / 300
+Got 4605 / 5000 correct (92.10)
+Starting epoch 203 / 300
+Got 4577 / 5000 correct (91.54)
+Starting epoch 204 / 300
+Got 4606 / 5000 correct (92.12)
+Starting epoch 205 / 300
+Got 4599 / 5000 correct (91.98)
+Starting epoch 206 / 300
+Got 4597 / 5000 correct (91.94)
+Starting epoch 207 / 300
+Got 4607 / 5000 correct (92.14)
+Starting epoch 208 / 300
+Got 4592 / 5000 correct (91.84)
+Starting epoch 209 / 300
+Got 4602 / 5000 correct (92.04)
+Starting epoch 210 / 300
+Got 4594 / 5000 correct (91.88)
+Starting epoch 211 / 300
+Got 4597 / 5000 correct (91.94)
+Starting epoch 212 / 300
+Got 4590 / 5000 correct (91.80)
+Starting epoch 213 / 300
+Got 4594 / 5000 correct (91.88)
+Starting epoch 214 / 300
+Got 4616 / 5000 correct (92.32)
+Starting epoch 215 / 300
+Got 4582 / 5000 correct (91.64)
+Starting epoch 216 / 300
+Got 4585 / 5000 correct (91.70)
+Starting epoch 217 / 300
+Got 4591 / 5000 correct (91.82)
+Starting epoch 218 / 300
+Got 4570 / 5000 correct (91.40)
+Starting epoch 219 / 300
+Got 4582 / 5000 correct (91.64)
+Starting epoch 220 / 300
+Got 4584 / 5000 correct (91.68)
+Starting epoch 221 / 300
+Got 4584 / 5000 correct (91.68)
+Starting epoch 222 / 300
+Got 4594 / 5000 correct (91.88)
+Starting epoch 223 / 300
+Got 4595 / 5000 correct (91.90)
+Starting epoch 224 / 300
+Got 4577 / 5000 correct (91.54)
+Starting epoch 225 / 300
+Got 4588 / 5000 correct (91.76)
+Starting epoch 226 / 300
+Got 4596 / 5000 correct (91.92)
+Starting epoch 227 / 300
+Got 4606 / 5000 correct (92.12)
+Starting epoch 228 / 300
+Got 4603 / 5000 correct (92.06)
+Starting epoch 229 / 300
+Got 4607 / 5000 correct (92.14)
+Starting epoch 230 / 300
+Got 4605 / 5000 correct (92.10)
+Starting epoch 231 / 300
+Got 4605 / 5000 correct (92.10)
+Starting epoch 232 / 300
+Got 4609 / 5000 correct (92.18)
+Starting epoch 233 / 300
+Got 4606 / 5000 correct (92.12)
+Starting epoch 234 / 300
+Got 4610 / 5000 correct (92.20)
+Starting epoch 235 / 300
+Got 4610 / 5000 correct (92.20)
+Starting epoch 236 / 300
+Got 4611 / 5000 correct (92.22)
+Starting epoch 237 / 300
+Got 4615 / 5000 correct (92.30)
+Starting epoch 238 / 300
+Got 4611 / 5000 correct (92.22)
+Starting epoch 239 / 300
+Got 4610 / 5000 correct (92.20)
+Starting epoch 240 / 300
+Got 4610 / 5000 correct (92.20)
+Starting epoch 241 / 300
+Got 4612 / 5000 correct (92.24)
+Starting epoch 242 / 300
+Got 4615 / 5000 correct (92.30)
+Starting epoch 243 / 300
+Got 4607 / 5000 correct (92.14)
+Starting epoch 244 / 300
+Got 4603 / 5000 correct (92.06)
+Starting epoch 245 / 300
+Got 4609 / 5000 correct (92.18)
+Starting epoch 246 / 300
+Got 4608 / 5000 correct (92.16)
+Starting epoch 247 / 300
+Got 4613 / 5000 correct (92.26)
+Starting epoch 248 / 300
+Got 4616 / 5000 correct (92.32)
+Starting epoch 249 / 300
+Got 4614 / 5000 correct (92.28)
+Starting epoch 250 / 300
+Got 4609 / 5000 correct (92.18)
+Starting epoch 251 / 300
+Got 4608 / 5000 correct (92.16)
+Starting epoch 252 / 300
+Got 4612 / 5000 correct (92.24)
+Starting epoch 253 / 300
+Got 4607 / 5000 correct (92.14)
+Starting epoch 254 / 300
+Got 4607 / 5000 correct (92.14)
+Starting epoch 255 / 300
+Got 4609 / 5000 correct (92.18)
+Starting epoch 256 / 300
+Got 4611 / 5000 correct (92.22)
+Starting epoch 257 / 300
+Got 4607 / 5000 correct (92.14)
+Starting epoch 258 / 300
+Got 4604 / 5000 correct (92.08)
+Starting epoch 259 / 300
+Got 4607 / 5000 correct (92.14)
+Starting epoch 260 / 300
+Got 4607 / 5000 correct (92.14)
+Starting epoch 261 / 300
+Got 4610 / 5000 correct (92.20)
+Starting epoch 262 / 300
+Got 4608 / 5000 correct (92.16)
+Starting epoch 263 / 300
+Got 4607 / 5000 correct (92.14)
+Starting epoch 264 / 300
+Got 4613 / 5000 correct (92.26)
+Starting epoch 265 / 300
+Got 4613 / 5000 correct (92.26)
+Starting epoch 266 / 300
+Got 4610 / 5000 correct (92.20)
+Starting epoch 267 / 300
+Got 4617 / 5000 correct (92.34)
+Starting epoch 268 / 300
+Got 4615 / 5000 correct (92.30)
+Starting epoch 269 / 300
+Got 4611 / 5000 correct (92.22)
+Starting epoch 270 / 300
+Got 4612 / 5000 correct (92.24)
+Starting epoch 271 / 300
+Got 4611 / 5000 correct (92.22)
+Starting epoch 272 / 300
+Got 4618 / 5000 correct (92.36)
+Starting epoch 273 / 300
+Got 4619 / 5000 correct (92.38)
+Starting epoch 274 / 300
+Got 4618 / 5000 correct (92.36)
+Starting epoch 275 / 300
+Got 4609 / 5000 correct (92.18)
+Starting epoch 276 / 300
+Got 4605 / 5000 correct (92.10)
+Starting epoch 277 / 300
+Got 4607 / 5000 correct (92.14)
+Starting epoch 278 / 300
+Got 4615 / 5000 correct (92.30)
+Starting epoch 279 / 300
+Got 4612 / 5000 correct (92.24)
+Starting epoch 280 / 300
+Got 4613 / 5000 correct (92.26)
+Starting epoch 281 / 300
+Got 4611 / 5000 correct (92.22)
+Starting epoch 282 / 300
+Got 4610 / 5000 correct (92.20)
+Starting epoch 283 / 300
+Got 4614 / 5000 correct (92.28)
+Starting epoch 284 / 300
+Got 4609 / 5000 correct (92.18)
+Starting epoch 285 / 300
+Got 4612 / 5000 correct (92.24)
+Starting epoch 286 / 300
+Got 4610 / 5000 correct (92.20)
+Starting epoch 287 / 300
+Got 4612 / 5000 correct (92.24)
+Starting epoch 288 / 300
+Got 4609 / 5000 correct (92.18)
+Starting epoch 289 / 300
+Got 4609 / 5000 correct (92.18)
+Starting epoch 290 / 300
+Got 4605 / 5000 correct (92.10)
+Starting epoch 291 / 300
+Got 4609 / 5000 correct (92.18)
+Starting epoch 292 / 300
+Got 4609 / 5000 correct (92.18)
+Starting epoch 293 / 300
+Got 4607 / 5000 correct (92.14)
+Starting epoch 294 / 300
+Got 4609 / 5000 correct (92.18)
+Starting epoch 295 / 300
+Got 4610 / 5000 correct (92.20)
+Starting epoch 296 / 300
+Got 4607 / 5000 correct (92.14)
+Starting epoch 297 / 300
+Got 4613 / 5000 correct (92.26)
+Starting epoch 298 / 300
+Got 4605 / 5000 correct (92.10)
+Starting epoch 299 / 300
+Got 4600 / 5000 correct (92.00)
+Starting epoch 300 / 300
+Got 4607 / 5000 correct (92.14)
+SC20_32*16d_0.5 Final test accuracy:
+Got 9181 / 10000 correct (91.81)
+*********
+Starting epoch 1 / 300
+Got 1555 / 5000 correct (31.10)
+Starting epoch 2 / 300
+Got 1854 / 5000 correct (37.08)
+Starting epoch 3 / 300
+Got 2120 / 5000 correct (42.40)
+Starting epoch 4 / 300
+Got 2327 / 5000 correct (46.54)
+Starting epoch 5 / 300
+Got 2684 / 5000 correct (53.68)
+Starting epoch 6 / 300
+Got 2987 / 5000 correct (59.74)
+Starting epoch 7 / 300
+Got 3113 / 5000 correct (62.26)
+Starting epoch 8 / 300
+Got 3314 / 5000 correct (66.28)
+Starting epoch 9 / 300
+Got 3374 / 5000 correct (67.48)
+Starting epoch 10 / 300
+Got 3500 / 5000 correct (70.00)
+Starting epoch 11 / 300
+Got 3541 / 5000 correct (70.82)
+Starting epoch 12 / 300
+Got 3709 / 5000 correct (74.18)
+Starting epoch 13 / 300
+Got 3744 / 5000 correct (74.88)
+Starting epoch 14 / 300
+Got 3863 / 5000 correct (77.26)
+Starting epoch 15 / 300
+Got 3858 / 5000 correct (77.16)
+Starting epoch 16 / 300
+Got 3943 / 5000 correct (78.86)
+Starting epoch 17 / 300
+Got 3941 / 5000 correct (78.82)
+Starting epoch 18 / 300
+Got 3973 / 5000 correct (79.46)
+Starting epoch 19 / 300
+Got 4024 / 5000 correct (80.48)
+Starting epoch 20 / 300
+Got 4006 / 5000 correct (80.12)
+Starting epoch 21 / 300
+Got 4047 / 5000 correct (80.94)
+Starting epoch 22 / 300
+Got 4071 / 5000 correct (81.42)
+Starting epoch 23 / 300
+Got 4067 / 5000 correct (81.34)
+Starting epoch 24 / 300
+Got 4132 / 5000 correct (82.64)
+Starting epoch 25 / 300
+Got 4045 / 5000 correct (80.90)
+Starting epoch 26 / 300
+Got 4102 / 5000 correct (82.04)
+Starting epoch 27 / 300
+Got 4129 / 5000 correct (82.58)
+Starting epoch 28 / 300
+Got 4151 / 5000 correct (83.02)
+Starting epoch 29 / 300
+Got 4177 / 5000 correct (83.54)
+Starting epoch 30 / 300
+Got 4162 / 5000 correct (83.24)
+Starting epoch 31 / 300
+Got 4166 / 5000 correct (83.32)
+Starting epoch 32 / 300
+Got 4092 / 5000 correct (81.84)
+Starting epoch 33 / 300
+Got 4211 / 5000 correct (84.22)
+Starting epoch 34 / 300
+Got 4159 / 5000 correct (83.18)
+Starting epoch 35 / 300
+Got 4199 / 5000 correct (83.98)
+Starting epoch 36 / 300
+Got 4230 / 5000 correct (84.60)
+Starting epoch 37 / 300
+Got 4197 / 5000 correct (83.94)
+Starting epoch 38 / 300
+Got 4164 / 5000 correct (83.28)
+Starting epoch 39 / 300
+Got 4200 / 5000 correct (84.00)
+Starting epoch 40 / 300
+Got 4248 / 5000 correct (84.96)
+Starting epoch 41 / 300
+Got 4226 / 5000 correct (84.52)
+Starting epoch 42 / 300
+Got 4220 / 5000 correct (84.40)
+Starting epoch 43 / 300
+Got 4237 / 5000 correct (84.74)
+Starting epoch 44 / 300
+Got 4242 / 5000 correct (84.84)
+Starting epoch 45 / 300
+Got 4208 / 5000 correct (84.16)
+Starting epoch 46 / 300
+Got 4275 / 5000 correct (85.50)
+Starting epoch 47 / 300
+Got 4213 / 5000 correct (84.26)
+Starting epoch 48 / 300
+Got 4219 / 5000 correct (84.38)
+Starting epoch 49 / 300
+Got 4263 / 5000 correct (85.26)
+Starting epoch 50 / 300
+Got 4242 / 5000 correct (84.84)
+Starting epoch 51 / 300
+Got 4299 / 5000 correct (85.98)
+Starting epoch 52 / 300
+Got 4276 / 5000 correct (85.52)
+Starting epoch 53 / 300
+Got 4252 / 5000 correct (85.04)
+Starting epoch 54 / 300
+Got 4298 / 5000 correct (85.96)
+Starting epoch 55 / 300
+Got 4235 / 5000 correct (84.70)
+Starting epoch 56 / 300
+Got 4283 / 5000 correct (85.66)
+Starting epoch 57 / 300
+Got 4280 / 5000 correct (85.60)
+Starting epoch 58 / 300
+Got 4297 / 5000 correct (85.94)
+Starting epoch 59 / 300
+Got 4289 / 5000 correct (85.78)
+Starting epoch 60 / 300
+Got 4326 / 5000 correct (86.52)
+Starting epoch 61 / 300
+Got 4284 / 5000 correct (85.68)
+Starting epoch 62 / 300
+Got 4320 / 5000 correct (86.40)
+Starting epoch 63 / 300
+Got 4296 / 5000 correct (85.92)
+Starting epoch 64 / 300
+Got 4292 / 5000 correct (85.84)
+Starting epoch 65 / 300
+Got 4329 / 5000 correct (86.58)
+Starting epoch 66 / 300
+Got 4301 / 5000 correct (86.02)
+Starting epoch 67 / 300
+Got 4298 / 5000 correct (85.96)
+Starting epoch 68 / 300
+Got 4326 / 5000 correct (86.52)
+Starting epoch 69 / 300
+Got 4355 / 5000 correct (87.10)
+Starting epoch 70 / 300
+Got 4308 / 5000 correct (86.16)
+Starting epoch 71 / 300
+Got 4308 / 5000 correct (86.16)
+Starting epoch 72 / 300
+Got 4358 / 5000 correct (87.16)
+Starting epoch 73 / 300
+Got 4316 / 5000 correct (86.32)
+Starting epoch 74 / 300
+Got 4348 / 5000 correct (86.96)
+Starting epoch 75 / 300
+Got 4298 / 5000 correct (85.96)
+Starting epoch 76 / 300
+Got 4359 / 5000 correct (87.18)
+Starting epoch 77 / 300
+Got 4321 / 5000 correct (86.42)
+Starting epoch 78 / 300
+Got 4297 / 5000 correct (85.94)
+Starting epoch 79 / 300
+Got 4324 / 5000 correct (86.48)
+Starting epoch 80 / 300
+Got 4340 / 5000 correct (86.80)
+Starting epoch 81 / 300
+Got 4273 / 5000 correct (85.46)
+Starting epoch 82 / 300
+Got 4363 / 5000 correct (87.26)
+Starting epoch 83 / 300
+Got 4308 / 5000 correct (86.16)
+Starting epoch 84 / 300
+Got 4322 / 5000 correct (86.44)
+Starting epoch 85 / 300
+Got 4334 / 5000 correct (86.68)
+Starting epoch 86 / 300
+Got 4348 / 5000 correct (86.96)
+Starting epoch 87 / 300
+Got 4314 / 5000 correct (86.28)
+Starting epoch 88 / 300
+Got 4331 / 5000 correct (86.62)
+Starting epoch 89 / 300
+Got 4342 / 5000 correct (86.84)
+Starting epoch 90 / 300
+Got 4354 / 5000 correct (87.08)
+Starting epoch 91 / 300
+Got 4318 / 5000 correct (86.36)
+Starting epoch 92 / 300
+Got 4377 / 5000 correct (87.54)
+Starting epoch 93 / 300
+Got 4275 / 5000 correct (85.50)
+Starting epoch 94 / 300
+Got 4346 / 5000 correct (86.92)
+Starting epoch 95 / 300
+Got 4340 / 5000 correct (86.80)
+Starting epoch 96 / 300
+Got 4296 / 5000 correct (85.92)
+Starting epoch 97 / 300
+Got 4310 / 5000 correct (86.20)
+Starting epoch 98 / 300
+Got 4334 / 5000 correct (86.68)
+Starting epoch 99 / 300
+Got 4396 / 5000 correct (87.92)
+Starting epoch 100 / 300
+Got 4358 / 5000 correct (87.16)
+Starting epoch 101 / 300
+Got 4342 / 5000 correct (86.84)
+Starting epoch 102 / 300
+Got 4375 / 5000 correct (87.50)
+Starting epoch 103 / 300
+Got 4296 / 5000 correct (85.92)
+Starting epoch 104 / 300
+Got 4341 / 5000 correct (86.82)
+Starting epoch 105 / 300
+Got 4362 / 5000 correct (87.24)
+Starting epoch 106 / 300
+Got 4324 / 5000 correct (86.48)
+Starting epoch 107 / 300
+Got 4309 / 5000 correct (86.18)
+Starting epoch 108 / 300
+Got 4389 / 5000 correct (87.78)
+Starting epoch 109 / 300
+Got 4396 / 5000 correct (87.92)
+Starting epoch 110 / 300
+Got 4336 / 5000 correct (86.72)
+Starting epoch 111 / 300
+Got 4327 / 5000 correct (86.54)
+Starting epoch 112 / 300
+Got 4393 / 5000 correct (87.86)
+Starting epoch 113 / 300
+Got 4382 / 5000 correct (87.64)
+Starting epoch 114 / 300
+Got 4395 / 5000 correct (87.90)
+Starting epoch 115 / 300
+Got 4344 / 5000 correct (86.88)
+Starting epoch 116 / 300
+Got 4408 / 5000 correct (88.16)
+Starting epoch 117 / 300
+Got 4332 / 5000 correct (86.64)
+Starting epoch 118 / 300
+Got 4369 / 5000 correct (87.38)
+Starting epoch 119 / 300
+Got 4337 / 5000 correct (86.74)
+Starting epoch 120 / 300
+Got 4387 / 5000 correct (87.74)
+Starting epoch 121 / 300
+Got 4391 / 5000 correct (87.82)
+Starting epoch 122 / 300
+Got 4383 / 5000 correct (87.66)
+Starting epoch 123 / 300
+Got 4398 / 5000 correct (87.96)
+Starting epoch 124 / 300
+Got 4345 / 5000 correct (86.90)
+Starting epoch 125 / 300
+Got 4359 / 5000 correct (87.18)
+Starting epoch 126 / 300
+Got 4347 / 5000 correct (86.94)
+Starting epoch 127 / 300
+Got 4304 / 5000 correct (86.08)
+Starting epoch 128 / 300
+Got 4365 / 5000 correct (87.30)
+Starting epoch 129 / 300
+Got 4352 / 5000 correct (87.04)
+Starting epoch 130 / 300
+Got 4326 / 5000 correct (86.52)
+Starting epoch 131 / 300
+Got 4373 / 5000 correct (87.46)
+Starting epoch 132 / 300
+Got 4366 / 5000 correct (87.32)
+Starting epoch 133 / 300
+Got 4363 / 5000 correct (87.26)
+Starting epoch 134 / 300
+Got 4384 / 5000 correct (87.68)
+Starting epoch 135 / 300
+Got 4325 / 5000 correct (86.50)
+Starting epoch 136 / 300
+Got 4347 / 5000 correct (86.94)
+Starting epoch 137 / 300
+Got 4376 / 5000 correct (87.52)
+Starting epoch 138 / 300
+Got 4350 / 5000 correct (87.00)
+Starting epoch 139 / 300
+Got 4380 / 5000 correct (87.60)
+Starting epoch 140 / 300
+Got 4336 / 5000 correct (86.72)
+Starting epoch 141 / 300
+Got 4392 / 5000 correct (87.84)
+Starting epoch 142 / 300
+Got 4388 / 5000 correct (87.76)
+Starting epoch 143 / 300
+Got 4345 / 5000 correct (86.90)
+Starting epoch 144 / 300
+Got 4426 / 5000 correct (88.52)
+Starting epoch 145 / 300
+Got 4347 / 5000 correct (86.94)
+Starting epoch 146 / 300
+Got 4415 / 5000 correct (88.30)
+Starting epoch 147 / 300
+Got 4333 / 5000 correct (86.66)
+Starting epoch 148 / 300
+Got 4363 / 5000 correct (87.26)
+Starting epoch 149 / 300
+Got 4296 / 5000 correct (85.92)
+Starting epoch 150 / 300
+Got 4344 / 5000 correct (86.88)
+Starting epoch 151 / 300
+Got 4412 / 5000 correct (88.24)
+Starting epoch 152 / 300
+Got 4429 / 5000 correct (88.58)
+Starting epoch 153 / 300
+Got 4432 / 5000 correct (88.64)
+Starting epoch 154 / 300
+Got 4438 / 5000 correct (88.76)
+Starting epoch 155 / 300
+Got 4448 / 5000 correct (88.96)
+Starting epoch 156 / 300
+Got 4456 / 5000 correct (89.12)
+Starting epoch 157 / 300
+Got 4476 / 5000 correct (89.52)
+Starting epoch 158 / 300
+Got 4474 / 5000 correct (89.48)
+Starting epoch 159 / 300
+Got 4472 / 5000 correct (89.44)
+Starting epoch 160 / 300
+Got 4482 / 5000 correct (89.64)
+Starting epoch 161 / 300
+Got 4479 / 5000 correct (89.58)
+Starting epoch 162 / 300
+Got 4493 / 5000 correct (89.86)
+Starting epoch 163 / 300
+Got 4487 / 5000 correct (89.74)
+Starting epoch 164 / 300
+Got 4483 / 5000 correct (89.66)
+Starting epoch 165 / 300
+Got 4482 / 5000 correct (89.64)
+Starting epoch 166 / 300
+Got 4483 / 5000 correct (89.66)
+Starting epoch 167 / 300
+Got 4511 / 5000 correct (90.22)
+Starting epoch 168 / 300
+Got 4494 / 5000 correct (89.88)
+Starting epoch 169 / 300
+Got 4514 / 5000 correct (90.28)
+Starting epoch 170 / 300
+Got 4515 / 5000 correct (90.30)
+Starting epoch 171 / 300
+Got 4511 / 5000 correct (90.22)
+Starting epoch 172 / 300
+Got 4508 / 5000 correct (90.16)
+Starting epoch 173 / 300
+Got 4501 / 5000 correct (90.02)
+Starting epoch 174 / 300
+Got 4495 / 5000 correct (89.90)
+Starting epoch 175 / 300
+Got 4496 / 5000 correct (89.92)
+Starting epoch 176 / 300
+Got 4515 / 5000 correct (90.30)
+Starting epoch 177 / 300
+Got 4519 / 5000 correct (90.38)
+Starting epoch 178 / 300
+Got 4509 / 5000 correct (90.18)
+Starting epoch 179 / 300
+Got 4514 / 5000 correct (90.28)
+Starting epoch 180 / 300
+Got 4502 / 5000 correct (90.04)
+Starting epoch 181 / 300
+Got 4522 / 5000 correct (90.44)
+Starting epoch 182 / 300
+Got 4524 / 5000 correct (90.48)
+Starting epoch 183 / 300
+Got 4496 / 5000 correct (89.92)
+Starting epoch 184 / 300
+Got 4509 / 5000 correct (90.18)
+Starting epoch 185 / 300
+Got 4523 / 5000 correct (90.46)
+Starting epoch 186 / 300
+Got 4520 / 5000 correct (90.40)
+Starting epoch 187 / 300
+Got 4516 / 5000 correct (90.32)
+Starting epoch 188 / 300
+Got 4482 / 5000 correct (89.64)
+Starting epoch 189 / 300
+Got 4509 / 5000 correct (90.18)
+Starting epoch 190 / 300
+Got 4502 / 5000 correct (90.04)
+Starting epoch 191 / 300
+Got 4504 / 5000 correct (90.08)
+Starting epoch 192 / 300
+Got 4499 / 5000 correct (89.98)
+Starting epoch 193 / 300
+Got 4501 / 5000 correct (90.02)
+Starting epoch 194 / 300
+Got 4505 / 5000 correct (90.10)
+Starting epoch 195 / 300
+Got 4506 / 5000 correct (90.12)
+Starting epoch 196 / 300
+Got 4502 / 5000 correct (90.04)
+Starting epoch 197 / 300
+Got 4514 / 5000 correct (90.28)
+Starting epoch 198 / 300
+Got 4519 / 5000 correct (90.38)
+Starting epoch 199 / 300
+Got 4491 / 5000 correct (89.82)
+Starting epoch 200 / 300
+Got 4508 / 5000 correct (90.16)
+Starting epoch 201 / 300
+Got 4512 / 5000 correct (90.24)
+Starting epoch 202 / 300
+Got 4513 / 5000 correct (90.26)
+Starting epoch 203 / 300
+Got 4506 / 5000 correct (90.12)
+Starting epoch 204 / 300
+Got 4502 / 5000 correct (90.04)
+Starting epoch 205 / 300
+Got 4519 / 5000 correct (90.38)
+Starting epoch 206 / 300
+Got 4499 / 5000 correct (89.98)
+Starting epoch 207 / 300
+Got 4511 / 5000 correct (90.22)
+Starting epoch 208 / 300
+Got 4534 / 5000 correct (90.68)
+Starting epoch 209 / 300
+Got 4509 / 5000 correct (90.18)
+Starting epoch 210 / 300
+Got 4508 / 5000 correct (90.16)
+Starting epoch 211 / 300
+Got 4521 / 5000 correct (90.42)
+Starting epoch 212 / 300
+Got 4510 / 5000 correct (90.20)
+Starting epoch 213 / 300
+Got 4515 / 5000 correct (90.30)
+Starting epoch 214 / 300
+Got 4542 / 5000 correct (90.84)
+Starting epoch 215 / 300
+Got 4517 / 5000 correct (90.34)
+Starting epoch 216 / 300
+Got 4515 / 5000 correct (90.30)
+Starting epoch 217 / 300
+Got 4509 / 5000 correct (90.18)
+Starting epoch 218 / 300
+Got 4519 / 5000 correct (90.38)
+Starting epoch 219 / 300
+Got 4515 / 5000 correct (90.30)
+Starting epoch 220 / 300
+Got 4503 / 5000 correct (90.06)
+Starting epoch 221 / 300
+Got 4516 / 5000 correct (90.32)
+Starting epoch 222 / 300
+Got 4505 / 5000 correct (90.10)
+Starting epoch 223 / 300
+Got 4521 / 5000 correct (90.42)
+Starting epoch 224 / 300
+Got 4517 / 5000 correct (90.34)
+Starting epoch 225 / 300
+Got 4532 / 5000 correct (90.64)
+Starting epoch 226 / 300
+Got 4534 / 5000 correct (90.68)
+Starting epoch 227 / 300
+Got 4536 / 5000 correct (90.72)
+Starting epoch 228 / 300
+Got 4536 / 5000 correct (90.72)
+Starting epoch 229 / 300
+Got 4527 / 5000 correct (90.54)
+Starting epoch 230 / 300
+Got 4533 / 5000 correct (90.66)
+Starting epoch 231 / 300
+Got 4535 / 5000 correct (90.70)
+Starting epoch 232 / 300
+Got 4533 / 5000 correct (90.66)
+Starting epoch 233 / 300
+Got 4536 / 5000 correct (90.72)
+Starting epoch 234 / 300
+Got 4529 / 5000 correct (90.58)
+Starting epoch 235 / 300
+Got 4530 / 5000 correct (90.60)
+Starting epoch 236 / 300
+Got 4534 / 5000 correct (90.68)
+Starting epoch 237 / 300
+Got 4530 / 5000 correct (90.60)
+Starting epoch 238 / 300
+Got 4533 / 5000 correct (90.66)
+Starting epoch 239 / 300
+Got 4532 / 5000 correct (90.64)
+Starting epoch 240 / 300
+Got 4531 / 5000 correct (90.62)
+Starting epoch 241 / 300
+Got 4535 / 5000 correct (90.70)
+Starting epoch 242 / 300
+Got 4537 / 5000 correct (90.74)
+Starting epoch 243 / 300
+Got 4542 / 5000 correct (90.84)
+Starting epoch 244 / 300
+Got 4541 / 5000 correct (90.82)
+Starting epoch 245 / 300
+Got 4542 / 5000 correct (90.84)
+Starting epoch 246 / 300
+Got 4541 / 5000 correct (90.82)
+Starting epoch 247 / 300
+Got 4533 / 5000 correct (90.66)
+Starting epoch 248 / 300
+Got 4542 / 5000 correct (90.84)
+Starting epoch 249 / 300
+Got 4538 / 5000 correct (90.76)
+Starting epoch 250 / 300
+Got 4536 / 5000 correct (90.72)
+Starting epoch 251 / 300
+Got 4539 / 5000 correct (90.78)
+Starting epoch 252 / 300
+Got 4537 / 5000 correct (90.74)
+Starting epoch 253 / 300
+Got 4536 / 5000 correct (90.72)
+Starting epoch 254 / 300
+Got 4537 / 5000 correct (90.74)
+Starting epoch 255 / 300
+Got 4540 / 5000 correct (90.80)
+Starting epoch 256 / 300
+Got 4539 / 5000 correct (90.78)
+Starting epoch 257 / 300
+Got 4540 / 5000 correct (90.80)
+Starting epoch 258 / 300
+Got 4540 / 5000 correct (90.80)
+Starting epoch 259 / 300
+Got 4542 / 5000 correct (90.84)
+Starting epoch 260 / 300
+Got 4536 / 5000 correct (90.72)
+Starting epoch 261 / 300
+Got 4541 / 5000 correct (90.82)
+Starting epoch 262 / 300
+Got 4534 / 5000 correct (90.68)
+Starting epoch 263 / 300
+Got 4535 / 5000 correct (90.70)
+Starting epoch 264 / 300
+Got 4533 / 5000 correct (90.66)
+Starting epoch 265 / 300
+Got 4534 / 5000 correct (90.68)
+Starting epoch 266 / 300
+Got 4536 / 5000 correct (90.72)
+Starting epoch 267 / 300
+Got 4539 / 5000 correct (90.78)
+Starting epoch 268 / 300
+Got 4543 / 5000 correct (90.86)
+Starting epoch 269 / 300
+Got 4539 / 5000 correct (90.78)
+Starting epoch 270 / 300
+Got 4538 / 5000 correct (90.76)
+Starting epoch 271 / 300
+Got 4540 / 5000 correct (90.80)
+Starting epoch 272 / 300
+Got 4535 / 5000 correct (90.70)
+Starting epoch 273 / 300
+Got 4542 / 5000 correct (90.84)
+Starting epoch 274 / 300
+Got 4532 / 5000 correct (90.64)
+Starting epoch 275 / 300
+Got 4541 / 5000 correct (90.82)
+Starting epoch 276 / 300
+Got 4537 / 5000 correct (90.74)
+Starting epoch 277 / 300
+Got 4531 / 5000 correct (90.62)
+Starting epoch 278 / 300
+Got 4531 / 5000 correct (90.62)
+Starting epoch 279 / 300
+Got 4527 / 5000 correct (90.54)
+Starting epoch 280 / 300
+Got 4533 / 5000 correct (90.66)
+Starting epoch 281 / 300
+Got 4533 / 5000 correct (90.66)
+Starting epoch 282 / 300
+Got 4530 / 5000 correct (90.60)
+Starting epoch 283 / 300
+Got 4534 / 5000 correct (90.68)
+Starting epoch 284 / 300
+Got 4536 / 5000 correct (90.72)
+Starting epoch 285 / 300
+Got 4544 / 5000 correct (90.88)
+Starting epoch 286 / 300
+Got 4540 / 5000 correct (90.80)
+Starting epoch 287 / 300
+Got 4545 / 5000 correct (90.90)
+Starting epoch 288 / 300
+Got 4544 / 5000 correct (90.88)
+Starting epoch 289 / 300
+Got 4540 / 5000 correct (90.80)
+Starting epoch 290 / 300
+Got 4544 / 5000 correct (90.88)
+Starting epoch 291 / 300
+Got 4533 / 5000 correct (90.66)
+Starting epoch 292 / 300
+Got 4545 / 5000 correct (90.90)
+Starting epoch 293 / 300
+Got 4549 / 5000 correct (90.98)
+Starting epoch 294 / 300
+Got 4545 / 5000 correct (90.90)
+Starting epoch 295 / 300
+Got 4541 / 5000 correct (90.82)
+Starting epoch 296 / 300
+Got 4539 / 5000 correct (90.78)
+Starting epoch 297 / 300
+Got 4538 / 5000 correct (90.76)
+Starting epoch 298 / 300
+Got 4539 / 5000 correct (90.78)
+Starting epoch 299 / 300
+Got 4545 / 5000 correct (90.90)
+Starting epoch 300 / 300
+Got 4535 / 5000 correct (90.70)
+SC20_4*16d_0.5 Final test accuracy:
+Got 8988 / 10000 correct (89.88)
+
+
+PS:
+
+Read file <SC.err> for stderr output of this job.
+
