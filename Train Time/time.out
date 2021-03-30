@@ -1,0 +1,58 @@
+Sender: LSF System <lsfadmin@gpu12>
+Subject: Job 41986: <TIME> in cluster <cluster_lsf> Done
+
+Job <TIME> was submitted from host <mgtgpu02> by user <TJXY02> in cluster <cluster_lsf> at Tue Mar 30 02:14:34 2021
+Job was executed on host(s) <gpu12>, in queue <gpu>, as user <TJXY02> in cluster <cluster_lsf> at Tue Mar 30 02:14:34 2021
+</nfsshare/home/TJXY02> was used as the home directory.
+</nfsshare/home/TJXY02> was used as the working directory.
+Started at Tue Mar 30 02:14:34 2021
+Terminated at Tue Mar 30 03:06:53 2021
+Results reported at Tue Mar 30 03:06:53 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -J TIME
+#BSUB -q gpu
+#BSUB -gpu "num=1"
+#BSUB -n 1
+#BSUB -o time.out
+#BSUB -e time.err
+
+source activate pytorch
+python traintime.py
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3144.02 sec.
+    Max Memory :                                 2238 MB
+    Average Memory :                             2211.81 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                8
+    Run time :                                   3139 sec.
+    Turnaround time :                            3139 sec.
+
+The output (if any) follows:
+
+ResNeXt4*16d Train time is 142.5001
+SC4*16d_0 Train time is 236.5466
+SC4*16d_0.5 Train time is 196.1836
+***********
+ResNeXt32*16d Train time is 476.9161
+SC32*16d_0 Train time is 1287.7484
+SC32*16d_0.5 Train time is 792.1167
+
+
+PS:
+
+Read file <time.err> for stderr output of this job.
+
