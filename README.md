@@ -6,6 +6,6 @@ To complete this work and compare with other competitive results from different 
 
 I use following paper or codes as reference:
 
-1. ResNet:paper:[Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)|[codes](https://github.com/KellerJordan/ResNet-PyTorch-CIFAR10/)
-2. ResNeXt:paper:[Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/abs/1611.05431)|[codes](https://github.com/prlz77/ResNeXt.pytorch)
-3. Stochastic Depth:paper:[Deep Networks with Stochastic Depth](https://arxiv.org/abs/1603.09382)|[codes](https://github.com/shamangary/Pytorch-Stochastic-Depth-Resnet)
+1. ResNet:[Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)|[codes](https://github.com/KellerJordan/ResNet-PyTorch-CIFAR10/)
+2. ResNeXt:[Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/abs/1611.05431)|[codes](https://github.com/prlz77/ResNeXt.pytorch)
+3. Stochastic Depth:[Deep Networks with Stochastic Depth](https://arxiv.org/abs/1603.09382)|[codes](https://github.com/shamangary/Pytorch-Stochastic-Depth-Resnet)
