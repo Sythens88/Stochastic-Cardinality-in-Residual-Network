@@ -1,4 +1,4 @@
-# Stochastic-Cardinality
+# Stochastic-Cardinality-in-Residual-Network
 
 his work proposes a new regularization method in ResNeXt from the cardinality dimension which is called Stochastic Cardinality. It's very similar to Stochastic Depth, another regularization method based on Residual network. The only difference is that Stochastic Depth deals with the depth dimension but Stochastic Cardinality deals with the cardinality dimension.
 
